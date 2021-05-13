@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="1번 문제"
+        android:icon="@drawable/one"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:id="@+id/tab1"/>
+
+    <item
+        android:title="2번 문제"
+        android:icon="@drawable/two"
+        app:showAsAction="ifRoom"
+        android:id="@+id/tab2"/>
+
+    <item
+        android:title="3번 문제"
+        android:icon="@drawable/three"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:id="@+id/tab3"/>
+
+</menu>

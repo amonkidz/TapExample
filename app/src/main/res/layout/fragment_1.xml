@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Q2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1. 객체지향 프로그램에서 데이터를 추상화하는 단위는?" />
+
+            <CheckBox
+                android:id="@+id/Q1_1checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="메소드" />
+
+            <CheckBox
+                android:id="@+id/Q1_2checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="클래스" />
+
+            <CheckBox
+                android:id="@+id/Q1_3checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="상속성" />
+
+            <CheckBox
+                android:id="@+id/Q1_4checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="메세지" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Q1quit"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="정답 확인" />
+
+                <Button
+                    android:id="@+id/Q2_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="다음 문제" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

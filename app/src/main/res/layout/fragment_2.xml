@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Q2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2. 코드 설계에서 일정한 일련번호를 부여하는 방식의 코드는?" />
+
+            <CheckBox
+                android:id="@+id/Q1_1checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연상 코드" />
+
+            <CheckBox
+                android:id="@+id/Q1_2checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="블록 코드" />
+
+            <CheckBox
+                android:id="@+id/Q1_3checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="순차 코드" />
+
+            <CheckBox
+                android:id="@+id/Q1_4checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="표의 숫자 코드" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Q1quit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="정답 확인" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

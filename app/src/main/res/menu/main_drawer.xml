@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/GO_Q1"
+            android:icon="@drawable/one"
+            android:title="1번 문제" />
+        <item
+            android:id="@+id/GO_Q2"
+            android:icon="@drawable/two"
+            android:title="2번 문제" />
+        <item
+            android:id="@+id/GO_Q3"
+            android:icon="@drawable/three"
+            android:title="3번 문제" />
+    </group>
+
+    <item
+        android:title="설정">
+        <menu>
+            <item android:id="@+id/user_setting"
+                android:icon="@drawable/checked"
+                android:title="사용자 설정" />
+        </menu>
+    </item>
+
+</menu>
